@@ -34,20 +34,75 @@ Este proyecto forma parte del Proyecto Final de Desarrollo Orientado a Objeto.
   - Estados: Pendiente, Confirmada, Cancelada
   - Combos cargados automáticamente desde BD
 
-## 💫 Tecnologías Utilizadas:
+## 💫 Instrucciones de Instalación y Ejecución
 
-  - ✨ Java SE 17
-  - ✨ JDBC (MySQL)
-  - ✨ Swing (UI)
-  - ✨ Patrón MVC + DAO
-  - ✨ MySQL 8
+1. Requisitos Previos
 
-## 💫 Cómo Ejecutarlo:
+  - Asegúrate de tener instalado:
 
-1. Clonar el repositorio:
-```bash
-git clone https://github.com/soofigonb/Luna-Reservas.git
-```
+    - Java JDK 17 o superior
+    - Apache NetBeans 12+
+    - MySQL Server / XAMPP (phpMyAdmin)
+    - MySQL Connector/J (ya incluido en el proyecto)
+    - Git (opcional si clonas el repositorio)
+
+2. Clonar o Descargar el Proyecto
+
+   - Opción A: Clonar con Git
+        ```bash
+        git clone https://github.com/soofigonb/Luna-Reservas.git
+        ```
+   - Opción B: Descargar ZIP
+     Repositorio → Code → Download ZIP
+     Luego descomprímelo.
+
+3. Importar el Proyecto en NetBeans
+
+    1. Abrir NetBeans
+    2. Ir a File → Open Project
+    3. Seleccionar la carpeta Luna-Reservas
+    4. Presionar Open
+
+4. Importar la Base de Datos MySQL
+
+    1. Abrir phpMyAdmin
+    2. Crear la base de datos:
+    3. Ir a la pestaña Importar
+    4. Seleccionar el archivo SQL:
+        ➡️ [reserva_horas.sql](reserva_horas.sql)
+    5. Presionar Importar
+  Esto creará automáticamente las tablas:
+
+        - cliente
+        - servicio
+        - reserva
+
+5. Verificar la Conexión JDBC
+
+   - Ir al archivo:
+      📄 src/bd/ConexionDB.java
+     Asegúrate de que los datos coincidan con tu entorno local:
+
+         private static final String URL = "jdbc:mysql://localhost:3306/reserva_horas";
+         private static final String USER = "root";
+         private static final String PASS = "";
+
+6. Añadir el Conector MySQL
+
+   - Botón derecho sobre el proyecto → Properties
+   - Ir a Libraries → Add JAR/Folder
+   - Seleccionar: 📁 mysql-connector-j-9.5.0.jar
+
+7. Ejecutar la Aplicación
+
+   - En NetBeans:
+
+        1. Run → Run Project o presiona F6
+        2. La aplicación abrirá la ventana principal, mostrando:
+
+              - Gestión de Clientes
+              - Gestión de Servicios
+              - Gestión de Reservas
 
 ## 📁 Estructura del Proyecto
 
@@ -74,12 +129,9 @@ LunaReservas/
 │
 └── README.md
 
-## Archivo de Base de Datos
+## 📦 Archivo de Base de Datos
 
-Puedes importar la base de datos del proyecto utilizando el siguiente archivo:
-
-➡️ [reserva_horas.sql](reserva_horas.sql)
-
+Puedes importar la base de datos utilizando el archivo:  ➡️ [reserva_horas.sql](reserva_horas.sql)
 
 ## 👩‍💻 Autor
 
