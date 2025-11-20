@@ -133,6 +133,10 @@ LunaReservas/
 
 Puedes importar la base de datos utilizando el archivo:  ➡️ [reserva_horas.sql](reserva_horas.sql)
 
+## 🗂️ Captura del Diagrama ER de la Base de Datos
+
+![Diagrama DER](DER_LunaReserva.png)
+
 ## 📸 Capturas de Pantalla del Sistema
 
 1. 🌙 Menú Principal
