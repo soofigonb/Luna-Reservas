@@ -77,8 +77,8 @@ LunaReservas/
 ## Archivo de Base de Datos
 
 Puedes importar la base de datos del proyecto utilizando el siguiente archivo:
-- Descargar aquí:
-reserva_horas.sql
+
+➡️ [reserva_horas.sql](reserva_horas.sql)
 
 
 ## 👩‍💻 Autor
