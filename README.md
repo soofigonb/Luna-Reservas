@@ -91,7 +91,7 @@ Este proyecto forma parte del Proyecto Final de Desarrollo Orientado a Objeto.
 
    - Botón derecho sobre el proyecto → Properties
    - Ir a Libraries → Add JAR/Folder
-   - Seleccionar: 📁 mysql-connector-j-9.5.0.jar
+   - Seleccionar: 📁 [mysql-connector-j-9.5.0.jar](mysql-connector-j-9.5.0.jar)
 
 7. Ejecutar la Aplicación
 
