@@ -133,6 +133,41 @@ LunaReservas/
 
 Puedes importar la base de datos utilizando el archivo:  ➡️ [reserva_horas.sql](reserva_horas.sql)
 
+## 📸 Capturas de Pantalla del Sistema
+
+1. 🌙 Menú Principal
+
+(Vista principal desde donde se accede a las gestiones)
+![Menú Principal](menuPrincipal.png)
+
+2. 👤 Gestión de Clientes
+
+(Módulo para registrar, actualizar y eliminar clientes)
+- 🔹 Nota importante:
+Los botones Actualizar y Eliminar se habilitan solo cuando seleccionas una fila de la tabla.
+Es decir, debes hacer clic sobre un cliente ya creado para poder modificarlo o eliminarlo.
+![Gestión de Clientes](gestionClientes.png)
+
+
+3. 💅 Gestión de Servicios
+
+(Módulo para administrar servicios: precio, duración y tipo)
+-🔹 Nota importante:
+Los botones Actualizar y Eliminar se habilitan solo cuando seleccionas una fila de la tabla.
+Es decir, debes hacer clic sobre un cliente ya creado para poder modificarlo o eliminarlo.
+![Gestión de Servicios](gestionServicios.png)
+
+
+4. 🗓️ Gestión de Reservas
+
+(Módulo para agendar, modificar y gestionar reservas)
+🔹 Nota importante:
+Los botones Actualizar y Eliminar se habilitan solo cuando seleccionas una fila de la tabla.
+Es decir, debes hacer clic sobre un cliente ya creado para poder modificarlo o eliminarlo.
+![Gestión de Reservas](gestionReservas.png)
+
+
+
 ## 👩‍💻 Autor
 
 - Sofía González Barra
